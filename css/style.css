@@ -1,0 +1,100 @@
+body{
+background-color: rgba(245, 58, 167, 0.651);
+background-blend-mode: overlay;
+width: 100vw;
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+
+
+/*Header*/
+header{
+	background: transparent;
+	color:#ffffff;
+	padding-top:20px;
+	min-height:70px;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;/*top right bottom left*/
+}
+
+header #branding{
+    float:left;
+    width: 100px;
+}
+
+header #branding h1{
+	margin:0px;
+}
+
+header .navbar{
+	float: left;;
+	margin-left:220px;
+}
+
+header a:hover{
+	color:rgb(114, 10, 114);
+	font-weight:bold;
+}
+.button{
+    float: right;
+    background-color: transparent;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 0 10px 0px 10px;
+    border-radius: 2px;
+}
+.main{
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.main h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main p{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main img{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    right: -70px;
+    top: 50px;
+}
+@media (min-width:780px){
+    body{
+        background-color: black;
+    }
+    .container{
+        width:80%;
+        margin:auto;
+        overflow:hidden;
+    }
+}
+
+
